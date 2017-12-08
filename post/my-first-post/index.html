@@ -1,13 +1,13 @@
 <!doctype html>
 
-<html lang="en-us">
+<html lang="zh-cn">
 
 <head>
-  <title>My New Hugo Site</title>
+  <title>Yuanying的博客</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="The HTML5 Herald" />
-  <meta name="author" content="" />
+  <meta name="author" content="chenyuanying" />
   <meta name="generator" content="Hugo 0.31.1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -19,12 +19,16 @@
   <div id="container">
     <header>
       <h1>
-                <a href="/">My New Hugo Site</a>
+                <a href="/">Yuanying的博客</a>
             </h1>
 
       <ul id="social-media">
-             
+          
+        <li><a href="https://github.com/chenyuanying"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
       </ul>
+      
+      <p><em>温故而知新，可以为师矣</em></p>
       
     </header>
 
@@ -80,6 +84,59 @@
         
     </ul>
 </section>
+    
+        <section class="comments-block">
+      <button id="show-comments" style="display: none;"><i class="fa fa-comments-o"></i> Add/View Comments</button>
+</section>
+
+<section id="disqus_thread"></section>
+
+<script>
+      (function () {
+            
+            
+            if (window.location.hostname == "localhost")
+                  return;
+
+            var disqus_loaded = false;
+            var disqus_shortname = 'Yuanying';
+            var disqus_button = document.getElementById("show-comments");
+
+            disqus_button.style.display = "";
+            disqus_button.addEventListener("click", disqus, false);
+
+            function disqus() {
+
+                  if (!disqus_loaded) {
+                        disqus_loaded = true;
+
+                        var e = document.createElement("script");
+                        e.type = "text/javascript";
+                        e.async = true;
+                        e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+                        (document.getElementsByTagName("head")[0] ||
+                              document.getElementsByTagName("body")[0])
+                        .appendChild(e);
+
+                        
+                        document.getElementById("show-comments").style.display = "none";
+                  }
+            }
+
+            
+            var hash = window.location.hash.substr(1);
+            if (hash.length > 8) {
+                  if (hash.substring(0, 8) == "comment-") {
+                        disqus();
+                  }
+            }
+
+            
+            if (/bot|google|baidu|bing|msn|duckduckgo|slurp|yandex/i.test(navigator.userAgent)) {
+                  disqus();
+            }
+      })();
+</script>
     
 
 
