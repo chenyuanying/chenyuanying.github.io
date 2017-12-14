@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://chenyuanying.github.io/post/test/</loc>
-    <lastmod>2017-12-08T20:48:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://chenyuanying.github.io/post/my-first-post/</loc>
-    <lastmod>2017-12-08T17:07:15+08:00</lastmod>
+    <loc>http://chenyuanying.github.io/post/%E9%BB%91%E5%AE%A2%E4%B8%8E%E7%94%BB%E5%AE%B6/</loc>
+    <lastmod>2017-12-14T15:43:59+08:00</lastmod>
   </url>
   
   <url>
@@ -19,7 +14,7 @@
   
   <url>
     <loc>http://chenyuanying.github.io/post/</loc>
-    <lastmod>2017-12-08T20:48:13+08:00</lastmod>
+    <lastmod>2017-12-14T15:43:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,7 +25,7 @@
   
   <url>
     <loc>http://chenyuanying.github.io/</loc>
-    <lastmod>2017-12-08T20:48:13+08:00</lastmod>
+    <lastmod>2017-12-14T15:43:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
